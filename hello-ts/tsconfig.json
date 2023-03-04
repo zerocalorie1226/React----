@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "CommonJS",
+    // 에러를 만나면 번역하지 않음
+    "noEmitOnError": true,
+    // js는 ts에서 불러들일수 없음
+    "allowJs": false,
+    // js는 타입을 체크하지 않음
+    "checkJs": false,
+    // d.ts 파일은 타입을 체크하지 않음
+    "skipLibCheck": true,
+    // 마지막 컴파일 정보를 남겨서 컴파일 속도를 높임
+    "incremental": true,
+    // 엄격한 타입체크 옵션 모두 켜기
+    "strict": true,
+    // 주석 지우기
+    "removeComments": true,
+    // 선언한 지역변수는 모두 사용해야 함
+    "noUnusedLocals": true,
+    // 선언한 파라미터는 모두 사용해야 함
+    "noUnusedParameters": true,
+    // 함수는 반드시 리턴해야 함
+    "noImplicitReturns": true,
+    // switch 문에는 break를 반드시 사용해야 함
+    "noFallthroughCasesInSwitch": true
+  }
+}
